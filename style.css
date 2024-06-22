@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EF0D50;
+    text-align: center;
+    font-size: 40px;
+}
+body {
+    background-color: #E1F2F7;
+   
+}
+.container {
+    background-color: #ffffff;
+    width: 90vmin;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 80px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgb(79, 214, 244);
+    flex: display;
+    align-items: center;
+    justify-content: center;
+
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px dashed #EF0D50;
+    font-size: 16px;
+    flex: display;
+    align-items: center;
+    justify-content: center;
+}
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #EF0D50;
+    border: 3.5px dashed black; /* Added black dashed border */
+    outline: none;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 7px 7px rgb(99, 118, 123);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for border */
+}
+
+.search-box button:hover {
+    background-color: rgb(79, 214, 244);
+    color: #000000;
+    border-color: white; 
+    box-shadow: 0 7px 7px rgb(99, 118, 123);
+}
+
+.result {
+    position: relative;
+    flex: display;
+    align-items: center;
+    justify-content: center;
+}
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+    flex: display;
+    align-items: center;
+    justify-content: center;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+   
+}
+.result button {
+    background-color: transparent;
+    color: #EF0D50;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    flex: display;
+    align-items: center;
+    justify-content: center;
+}
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+    
+}
+.word-meaning {
+    color: #575a7b;
+}
+.word-example {
+    color: #575a7b;
+    font-style: italic;
+    border-left: 5px solid #EF0D50;
+    padding-left: 20px;
+    margin-top: 30px;
+    flex: display;
+    align-items: center;
+    justify-content: center;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+    flex: display;
+    align-items: center;
+    justify-content: center;
+}
