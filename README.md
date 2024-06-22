@@ -2,7 +2,8 @@
 ## Overview
 This Dictionary Web Application provides a simple interface for users to search for word definitions and phonetics. Leveraging the Dictionary API, this app offers real-time word meanings and examples, along with pronunciation audio where available. The application is built using HTML, CSS, and JavaScript, making it lightweight and easy to use.
 
-![image](https://github.com/areeba0/Dictionary-Web-Application-Html-CSS-JS-with-API/assets/136759791/ecdfd77a-388d-4beb-bb87-f530de2aa10a)
+![image](https://github.com/areeba0/Dictionary-Web-Application-Html-CSS-JS-with-API/assets/136759791/6ff2e549-cae2-4c68-92be-757047e91a08)
+
 
 ## Responsive Web Design =
 
