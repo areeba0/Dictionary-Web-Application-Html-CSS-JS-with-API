@@ -6,10 +6,26 @@ This Dictionary Web Application provides a simple interface for users to search 
 
 ## Responsive Web Design =
 
-![image](https://github.com/areeba0/Dictionary-Web-Application-Html-CSS-JS-with-API/assets/136759791/5b93e2f6-ee67-470a-b2d9-d7cff5d0d774)
+![image](https://github.com/areeba0/Dictionary-Web-Application-Html-CSS-JS-with-API/assets/136759791/d340d873-6ad1-4c50-82cf-03071cbfb019)
+
 
 # Key Features
-Word Search: Enter a word and get its meaning, phonetic transcription, and examples.
-Phonetics Audio: Play pronunciation audio for words that have phonetic data available.
-Responsive Design: Compatible with various devices and screen sizes.
-Error Handling: Displays an error message if the word is not found.
+- Word Search: Enter a word and get its meaning, phonetic transcription, and examples.
+- Phonetics Audio: Play pronunciation audio for words with phonetic data.
+- Responsive Design: Compatible with various devices and screen sizes.
+- Error Handling: Displays an error message if the word is not found.
+
+# Dependencies
+- Html
+- CSS
+- JavaScript
+- Dictionary API (link for the API used) =
+  ####  https://dictionaryapi.dev/
+- For Icons =
+   Font Awesome: (For the volume icon in the pronunciation button)
+  #### <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+- For Font =
+   Google Fonts: For the Poppins font used in the app
+   #### <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+
